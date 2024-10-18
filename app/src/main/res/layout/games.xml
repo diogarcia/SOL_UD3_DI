@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/design_default_color_primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- Toolbar included -->
+
+            <include layout="@layout/toolbar_layout"></include>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/red_custom_dio"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_angrybirds"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch1"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Angry Birds"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView6"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:background="@color/red_custom_dio"
+                android:layout_marginBottom="2dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_dragonfly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch2"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Dragon fly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView7"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@color/red_custom_dio"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_hillclimbingracing"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch3"
+                    android:layout_width="135dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Hill Climbing"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView8"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:background="@color/red_custom_dio"
+                android:layout_marginBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_radiantdefense"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch4"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Radiant Defense"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@color/red_custom_dio"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_pocketsoccer"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch5"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Pocket Soccer"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView10"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/red_custom_dio"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_ninjump"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch6"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Ninja Jump"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView11"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:background="@color/red_custom_dio"
+                android:layout_marginBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_aircontrol"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch7"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Air control"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView12"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/red_custom_dio"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/games_angrybirds"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+
+                <CheckBox
+                    android:id="@+id/ch8"
+                    android:layout_width="109dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:text="Angry Birds"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.495">
+
+                </CheckBox>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="FAB"
+        app:srcCompat="?android:attr/textCheckMark"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginEnd="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
